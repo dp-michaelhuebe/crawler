@@ -1,0 +1,9 @@
+{
+	"name": "digitalpatrioten/crawler",
+	"type": "typo3cms-extension",
+	"description": "Site Crawler",
+	"homepage": "http://www.typo3.org",
+	"license": ["GPL-2.0+"],
+	"version": "3.6.dev",
+	"minimum-stability": "dev"
+}
