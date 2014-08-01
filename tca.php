@@ -64,17 +64,17 @@ $TCA["tx_crawler_configuration"] = array (
                 "size" => "30",
             )
         ),
-        'sys_domain_base_url' => array (        
-            'exclude' => 0,        
-            'label' => 'LLL:EXT:crawler/locallang_db.xml:tx_crawler_configuration.sys_domain_base_url',        
+        'sys_domain_base_url' => array (
+            'exclude' => 0,
+            'label' => 'LLL:EXT:crawler/locallang_db.xml:tx_crawler_configuration.sys_domain_base_url',
             'config' => array (
-                'type' => 'select',    
+                'type' => 'select',
                 'items' => array (
                     array('',0),
                 ),
-                'foreign_table' => 'sys_domain',    
-                'foreign_table_where' => 'ORDER BY pages.uid',    
-                'size' => 1,    
+                'foreign_table' => 'sys_domain',
+                'foreign_table_where' => 'ORDER BY pages.uid',
+                'size' => 1,
                 'minitems' => 0,
                 'maxitems' => 1,
             )
@@ -138,7 +138,7 @@ $TCA["tx_crawler_configuration"] = array (
 		'realurl' => Array (
 			'exclude' => 1,
 			'label' => 'LLL:EXT:crawler/locallang_db.xml:tx_crawler_configuration.realurl',
-			'displayCond' => 'FALSE',
+//			'displayCond' => 'FALSE',
 			'config' => Array (
 				'type' => 'check',
 			)
